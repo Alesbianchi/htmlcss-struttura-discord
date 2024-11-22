@@ -1,5 +1,47 @@
+/*regole generali di pagina*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*regole header*/
+header{
+    background-color:aqua;
+    height: 100px;
+    
+}
+
+/*regole intestazione header*/
+#main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    background-color: yellow;
+    border: 2px solid black;
+    margin: 0 auto; 
+    
+}
+
+ul{    
+    display: flex;
+    min-width: 200px;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+
+
+
+
+/*regole footer*/
+footer{
+    background-color: #000000;
+    min-height: 100px;
 }
