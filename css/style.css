@@ -23,7 +23,7 @@ header{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 50%;
+    width: 60%;
     background-color: yellow;
     border: 2px solid black;
     margin: 0 auto; 
@@ -100,6 +100,7 @@ ul li {
 footer{
     background-color: #000000;
     min-height: 100px;
+    
 }
 
 .sub-container{
@@ -123,4 +124,20 @@ footer{
     background-color: cadetblue;
 }
 
+hr{
+   color: lightgray; 
+   margin-bottom: 1%;
+}
+
+#last-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+    background-color: cadetblue;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 1%;
+}
 
